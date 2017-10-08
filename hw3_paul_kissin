@@ -9,13 +9,11 @@ console.log(flickerObj);
 
 
 // Iterate through the object's both item titles and the date they were created. 
-
 for (var i = 0; i < flickerObj.items.length; i++) {
  console.log(flickerObj.items[i].title + " " + flickerObj.items[i].date_taken);
  };
 
 // Creates the links array
-
 var links = [];
 
 // Iterate through the object's item links and push them to the links array. Log to console.
